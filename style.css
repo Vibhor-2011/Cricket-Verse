@@ -367,3 +367,25 @@ text-align:center;
 width:180px;
 }
 }
+.stats{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px 20px;
+}
+
+.stat-box{
+    width:180px;
+    background:#0f9b0f;
+    color:white;
+    text-align:center;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.stat-box h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
