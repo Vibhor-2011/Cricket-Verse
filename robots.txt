@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://vibhor-2011.github.io/Cricket-Verse/sitemap.xml
