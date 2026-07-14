@@ -225,4 +225,21 @@ nav a{
 .card-link:hover{
     transform:scale(1.02);
 }
+.live-score{
+    padding:40px 20px;
+    text-align:center;
+}
 
+.score-card{
+    max-width:500px;
+    margin:30px auto;
+    background:#ffffff;
+    color:#222;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.score-card h3{
+    color:#0f9b0f;
+}
