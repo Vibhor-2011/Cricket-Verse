@@ -243,3 +243,36 @@ nav a{
 .score-card h3{
     color:#0f9b0f;
 }
+.latest-news{
+    padding:50px 20px;
+    text-align:center;
+}
+
+.news-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.news-card{
+    background:white;
+    color:#222;
+    width:300px;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.news-card:hover{
+    transform:translateY(-8px);
+}
+
+.news-card a{
+    display:inline-block;
+    margin-top:10px;
+    text-decoration:none;
+    color:#0f9b0f;
+    font-weight:bold;
+}
