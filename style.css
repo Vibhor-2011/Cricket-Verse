@@ -216,3 +216,13 @@ nav a{
   vertical-align:middle;
   margin-right:10px;
 }
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover{
+    transform:scale(1.02);
+}
+
