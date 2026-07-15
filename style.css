@@ -847,3 +847,31 @@ color:white;
 }
 
     }
+
+.player-profile{
+    max-width:900px;
+    margin:60px auto;
+    padding:40px;
+    text-align:center;
+}
+
+.player-profile img{
+    width:260px;
+    height:260px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #0f9b0f;
+    margin-bottom:25px;
+}
+
+.player-profile h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.player-profile p{
+    max-width:750px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
