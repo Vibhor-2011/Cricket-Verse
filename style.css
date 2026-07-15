@@ -478,13 +478,13 @@ color:white;
     color:#0f9b0f;
     margin-bottom:30px;
 }
-
 .faq-item{
     background:white;
     margin:20px 0;
     padding:20px;
     border-left:5px solid #0f9b0f;
     border-radius:12px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
 }
 
 .faq-item h3{
