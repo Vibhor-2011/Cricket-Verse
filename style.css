@@ -547,3 +547,24 @@ color:white;
     line-height:1.8;
     font-size:16px;
 }
+
+.view-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 22px;
+    background:#0f9b0f;
+    color:white;
+    border-radius:25px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.card-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
+
+.card-link:hover .view-btn{
+    background:#15803d;
+}
