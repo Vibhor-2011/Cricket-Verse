@@ -574,21 +574,28 @@ color:white;
 
 .contact-container{
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     justify-content:center;
     gap:40px;
     flex-wrap:wrap;
 }
 
+.contact-image{
+    text-align:center;
+    flex:0 0 250px;
+}
+
 .contact-image img{
-    width:320px;
+    width:220px;
+    height:auto;
     max-width:100%;
+    object-fit:contain;
     border-radius:20px;
 }
 
 .contact-content{
     flex:1;
-    min-width:300px;
+    width:100%;
 }
 
 .contact-content h2{
