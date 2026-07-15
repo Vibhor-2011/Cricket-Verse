@@ -551,20 +551,14 @@ color:white;
 .view-btn{
     display:inline-block;
     margin-top:20px;
-    padding:10px 22px;
-    background:#0f9b0f;
-    color:white;
-    border-radius:25px;
+    color:#0f9b0f;
     font-weight:bold;
+    font-size:16px;
     text-decoration:none;
-}
-
-.card-link{
-    text-decoration:none;
-    color:inherit;
-    display:block;
+    transition:0.3s;
 }
 
 .card-link:hover .view-btn{
-    background:#15803d;
+    color:#15803d;
+    transform:translateX(5px);
 }
