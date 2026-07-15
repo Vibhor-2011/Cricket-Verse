@@ -450,12 +450,13 @@ background:#0f9b0f;
 color:white;
 }
 .achievements{
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 40px;
-    background: #f8f8f8;
-    border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    max-width:900px;
+    margin:60px auto;
+    padding:40px;
+    background:#e8f5e9;
+    border-left:6px solid #0f9b0f;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
 
 .achievements h2{
