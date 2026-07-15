@@ -419,3 +419,20 @@ th{
 background:#0f9b0f;
 color:white;
 }
+.achievements{
+max-width:800px;
+margin:40px auto;
+padding:20px;
+background:#f8f8f8;
+border-radius:15px;
+}
+
+.achievements h2{
+text-align:center;
+color:#0f9b0f;
+}
+
+.achievements li{
+margin:12px 0;
+font-size:18px;
+}
