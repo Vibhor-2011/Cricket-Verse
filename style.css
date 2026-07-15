@@ -496,3 +496,30 @@ color:white;
     color:#444;
     line-height:1.7;
 }
+.why-us{
+    max-width:1100px;
+    margin:70px auto;
+    padding:20px;
+}
+
+.why-us h2{
+    text-align:center;
+    color:#0f9b0f;
+    margin-bottom:30px;
+}
+
+.why-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.why-card{
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
