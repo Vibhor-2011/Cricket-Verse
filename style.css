@@ -436,3 +436,23 @@ color:#0f9b0f;
 margin:12px 0;
 font-size:18px;
 }
+.faq{
+max-width:800px;
+margin:40px auto;
+padding:20px;
+}
+
+.faq h2{
+text-align:center;
+color:#0f9b0f;
+margin-bottom:20px;
+}
+
+.faq h3{
+margin-top:20px;
+color:#222;
+}
+
+.faq p{
+line-height:1.6;
+}
