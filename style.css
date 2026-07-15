@@ -562,3 +562,22 @@ color:white;
     color:#15803d;
     transform:translateX(5px);
 }
+
+.contact-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.contact-image img{
+    width:350px;
+    max-width:100%;
+    border-radius:20px;
+}
+
+.contact-content{
+    flex:1;
+    min-width:300px;
+}
