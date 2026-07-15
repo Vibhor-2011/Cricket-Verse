@@ -743,3 +743,107 @@ color:white;
     color:#ccc;
     margin:40px 0;
     }
+
+/* ===== PLAYERS PAGE ===== */
+
+.players-hero{
+    max-width:1100px;
+    margin:50px auto;
+    padding:60px 30px;
+    text-align:center;
+    background:linear-gradient(135deg,#0f9b0f,#1e3c72);
+    color:white;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.players-hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.players-hero p{
+    font-size:19px;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.players-grid{
+    max-width:1200px;
+    margin:60px auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:35px;
+}
+
+.player-card{
+    background:white;
+    color:#222;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    transition:.35s;
+}
+
+.player-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,.25);
+}
+
+.player-card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.player-card h2{
+    color:#0f9b0f;
+    margin:20px 0 10px;
+    font-size:28px;
+}
+
+.player-card p{
+    color:#555;
+    font-size:17px;
+    line-height:1.8;
+    padding:0 20px;
+}
+
+.player-card .hero-btn{
+    display:inline-block;
+    margin:25px 0 30px;
+    background:#0f9b0f;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.player-card .hero-btn:hover{
+    background:#15803d;
+}
+
+@media(max-width:768px){
+
+.players-hero{
+    padding:40px 20px;
+}
+
+.players-hero h1{
+    font-size:34px;
+}
+
+.players-grid{
+    gap:25px;
+}
+
+.player-card img{
+    height:260px;
+}
+
+    }
