@@ -389,3 +389,33 @@ width:180px;
     font-size:32px;
     margin-bottom:10px;
 }
+.player-profile{
+text-align:center;
+padding:40px 20px;
+}
+
+.player-profile img{
+width:250px;
+border-radius:20px;
+}
+
+.career-info{
+max-width:700px;
+margin:auto;
+padding:30px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:12px;
+}
+
+th{
+background:#0f9b0f;
+color:white;
+}
